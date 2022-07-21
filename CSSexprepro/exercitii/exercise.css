@@ -1,0 +1,151 @@
+ * {
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .row{
+    display: flex;
+    align-items: center;
+ }
+
+ .row div{
+    margin-left: 10px;
+ }
+ 
+ .first{
+        border-radius: 30px;
+        background-color: rgb(13, 77, 103);
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+ }
+
+ .second {
+        border-radius: 30px;
+        background-color: rgb(45, 40, 150);
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+ }
+
+ .third {
+        border-radius: 30px;
+        background-color: rgb(144, 27, 46);
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+ }
+
+ .fourth{
+        border-radius: 30px;
+        background-color: rgb(27, 169, 102);
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+ }
+
+ .fifth {
+    border-radius: 30px;
+     background-color: rgb(113, 48, 117);
+     padding: 20px;
+     width: 200px;
+     height: 150px;
+ }
+
+ .box {
+     font-size: 20px;
+     text-align: center;
+     padding: 10px;
+     text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.215);
+ }
+
+ .container{
+    
+     align-items: center;
+     justify-content: center
+     background: url(summer.jpg);
+ }
+
+
+div.row {
+    background-color:rgb(0, 0, 0);
+}
+
+/* .p{
+    text-shadow: 4px 10px 20px red;
+} */
+
+
+
+
+
+/*ANIMATII*/
+
+
+/* @keyframes animationByMary{
+    from{
+        margin-left: 100%;
+        background: red;
+        height: 100%;
+        width: 100%;
+    }
+    to{
+        background: yellow;
+        margin-left 0%;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

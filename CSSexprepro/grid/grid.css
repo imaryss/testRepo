@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    color: white;
+    /* font-size: 3rem; */
+}
+
+.box-1 {
+    background-color: #009767;
+}
+
+.box-2 {
+    background-color: #a54747;
+}
+
+.box-3 {
+    background-color: aqua;
+    position: relative;
+    /* top: 50px;
+left: 100px; */
+}
+
+.box-4 {
+    background-color: blueviolet;
+}
+
+.box-5 {
+    background-color: rgb(193, 62, 62);
+}
+
+.box-6 {
+    background-color: rgb(15, 106, 65);
+}
+
+.box-7 {
+    background-color: rgb(16, 140, 159);
+}
+
+.box-8 {
+    background-color: rgb(144, 152, 31);
+}
+
+.box-9 {
+    background-color: rgb(231, 120, 120);
+}
+
+.box-10 {
+    background-color: #9c1c9c;
+}
+
+
+.box {
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    /* text-shadow: 4px 4px 0 rgb(198, 20, 20); */
+}
+
+
+/**---------------------------grid template columns-------------*/
+
+/* .container{
+    display: grid;
+  grid-template-columns: 100px 100px 50px; 
+grid-template-columns: 15% 25% 30%;
+grid-template-columns: repeat(7, 40px,);
+grid-template-columns: 100px auto 25%;
+} */
+/**---------------------------grid template row-------------*/
+
+/* .container{
+    display: grid;
+    grid-template-rows: 100px 200px 100px ; 
+    grid-template-rows: 25wh 25wh 25wh;
+     grid-template-columns: 1fr 2fr 1fr 2fr; 
+} */
+
+/**---------------------------grid template items-------------*/
+
+/* .container{
+    display: grid;
+}
+
+.box-5{
+    grid-column-start: 3;
+}
+.box-9{
+    grid-column: 3;
+}
+
+
+.box-5{
+    grid-row-start: 1;
+}
+
+.box-10{
+    grid-row-end: 2;
+} */
+
+
+
+
+
