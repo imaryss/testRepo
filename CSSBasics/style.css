@@ -1,0 +1,41 @@
+div {
+    font-size: 20px;
+}
+.first {
+    background-color: gray;
+   
+
+}
+
+.second { 
+    background-color: #708090;
+   
+
+}
+
+.second span {
+    text-decoration: underline;
+        text-transform: uppercase;
+
+}
+
+.first, .second { 
+        font-size: 300%;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.target {
+   
+}
+
+div > sapan {
+    background-color: blueviolet;
+}
+
+.first.big {
+    color: aquamarine;
+}
+
+img{
+    display: block;
+}
