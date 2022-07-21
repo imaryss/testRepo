@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    background-color: aquamarine;
+    background-image:url('lonely.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 5px solid black;
+    background-attachment:fixed;
+}
+.source{
+    background-color: rgb(111, 39, 39);
+    height: 200px;
+    width: 200px;
+    background-image: url('back.webp');
+    /* background-position: 100px 200px; */
+    background-repeat: no-repeat;
+    background-size: 200px 200px; /** fits the img to the size of the box*/
+    /* background-size: cover;   */
+    /** automatically fits the img to the size of the box*/
+    background-attachment: scroll;
+    overflow:scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
