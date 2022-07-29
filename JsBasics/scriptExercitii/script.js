@@ -714,7 +714,11 @@ console.log(newPlant001);
 console.log(newPlant002);
 console.log(newPlant003);
 
-//*Intrebare*
+//map
+
+const num = [1, 2, 3];
+num.map(v=> v*2);
+console.log(v);
 
 
 
