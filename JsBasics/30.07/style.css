@@ -1,0 +1,91 @@
+/* Exercise1: Create a Rainbow */
+.circle1 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(216, 23, 23);
+    border-radius: 50%;
+    position: absolute;
+    left: -150px;
+    bottom: 80px;
+    
+    
+    
+}
+
+
+.circle2{
+    height: 280px;
+    width: 280px;
+    background-color: rgb(219, 83, 20);
+    border-radius: 50%;
+    position: absolute;
+    left: -140px;
+    bottom: 90px;
+    
+}
+
+
+.circle3 {
+    height: 260px;
+    width: 260px;
+    background-color: rgb(230, 195, 19);
+    border-radius: 50%;
+    position: absolute;
+    left: -130px;
+    bottom: 100px;
+}
+
+.circle4 {
+    height: 240px;
+    width: 240px;
+    background-color: rgb(93, 201, 6);
+    border-radius: 50%;
+    position: absolute;
+    left: -120px;
+    bottom: 110px;
+}
+
+
+.circle5 {
+    height: 220px;
+    width: 220px;
+    background-color: rgb(9, 104, 246);
+    border-radius: 50%;
+    position: absolute;
+    left: -110px;
+    bottom: 120px;
+}
+
+.circle6 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(20, 27, 77);
+    border-radius: 50%;
+    position: absolute;
+    left: -100px;
+    bottom: 130px;
+}
+
+.circle7 {
+    height: 180px;
+    width: 180px;
+    background-color: rgb(130, 8, 211);
+    border-radius: 50%;
+    position: absolute;
+    left: -90px;
+    bottom: 140px;
+}
+
+.circle {
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+
