@@ -1,4 +1,5 @@
 /* Exercise1: Create a Rainbow */
+
 .circle1 {
     height: 300px;
     width: 300px;
@@ -76,6 +77,15 @@
     bottom: 140px;
 }
 
+.white {
+    height: 160px;
+    width: 160px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    left: -80px;
+    bottom: 150px;
+}
 .circle {
     display: inline-block;
     
