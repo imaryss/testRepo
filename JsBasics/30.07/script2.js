@@ -5,11 +5,52 @@ let splitedString = letterString.split('');
 console.log(splitedString);
 console.log(splitedString.valueOf());
 const count = {};
+console.log(letterString.length)
+// for(let i=0; i<=splitedString.length; i++){
+//     if(splitedString[i] === 'M' ){
+//     console.log(splitedString[i]);
+//     }
+// }
+// for(let i=0; i<=splitedString.length; i++){
+//     if(splitedString[i] === 'A' ){
+//     console.log(splitedString[i]);
+//     }
+// }
 
+// for(let i=0; i<=splitedString.length; i++){
+//     if(splitedString[i] === 'R' ){
+//     console.log(splitedString[i]);
+//     }
+// }
 
-splitedString.forEach(letter => {
-    console.log(letter + '9');
-});
+// for(let i=0; i<=splitedString.length; i++){
+//     if(splitedString[i] === 'I' ){
+//     console.log(splitedString[i]);
+//     }
+// }
+
+// for(let i=0; i<=splitedString.length; i++){
+//     if(splitedString[i] === 'A' ){
+//     console.log(splitedString[i]);
+//     }
+// }
+
+// for(let i=0; i<=splitedString.length; i++){
+//     if(splitedString[i] === 'N' ){
+//     console.log(splitedString[i]);
+//     }
+// }
+
+// for(let i=0; i<=splitedString.length; i++){
+//     if(splitedString[i] === 'A' ){
+//     console.log(splitedString[i]);
+//     }
+// }
+
+splitedString.forEach(function(){
+
+}
+);
 // for(var i=0; i<letterString.length; i++){
 
 // }
@@ -26,17 +67,36 @@ splitedString.forEach(letter => {
 // 6. Calculati cea mai mare nota la Informatica din obiectele create
 // 7. Creati 5 cercuri ca la jocurile olimpice. Colorati-le background-ul
 
+// document.querySelector('button').addEventListener(
+//     'click', function() {
+//         console.log("i clicked it")
+//     }
+// )
 
+// document.querySelectorAll(".alphabet").addEventListener(
+//     'click', function(){
+//         console.log("click");
+//     }
+// )
 
+// const letters = document.querySelectorAll(".alphabet");
+// console.log(letters);
 
+// for(let i=0; i<letters.length; i++){
+//     letters[i].addEventListener(
+//         'click', function(){
+//             console.log("click");
+//         }
+//     )
+// }
 
-
-
-
-
-
-
-
+// letters.forEach(element => {
+//     element.addEventListener(
+//         'click', function(){
+//             console.log('click');
+//         }
+//     )
+// });
 
 
 

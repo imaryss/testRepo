@@ -22,8 +22,10 @@
 // message.innerHTML='Adding some text'
 
 
+// tutorial yt
 
 
+console.log(document.querySelector('h2').textContent);
 
 
 
