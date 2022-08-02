@@ -943,7 +943,9 @@ console.log(percentages);
 // }
 
 
+//Exerxitii alternative
 
+//Se da un cuvant . Numarati de cate ori se repeta fiecare litera
 
 
 
