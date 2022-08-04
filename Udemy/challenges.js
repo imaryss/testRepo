@@ -1,25 +1,25 @@
 //*-------Coding challenges-------
-console.log("CODING CHALLANGE")
+console.log('CODING CHALLANGE');
 //*#1
-var markMass=78;
-var markHeight= 1.69;
-var johnMass=92;
-var johnHeight=1.95;
+var markMass = 78;
+var markHeight = 1.69;
+var johnMass = 92;
+var johnHeight = 1.95;
 
-var bmiMark= markMass/ markHeight**2;
+var bmiMark = markMass / markHeight ** 2;
 console.log(bmiMark);
 
-var bmiJohn= johnMass/ johnHeight**2;
+var bmiJohn = johnMass / johnHeight ** 2;
 console.log(bmiJohn);
 //*#2
 
-if(bmiMark>bmiJohn){
-    console.log('BMI Mark is greater than John s BMI')
-}else if(bmiMark<bmiJohn){
-    console.log('BMI Mark is smaller than John s BM')
+if (bmiMark > bmiJohn) {
+  console.log('BMI Mark is greater than John s BMI');
+} else if (bmiMark < bmiJohn) {
+  console.log('BMI Mark is smaller than John s BM');
 }
 
-console.log("---------------------");
+console.log('---------------------');
 //*HTML
 //?(1)
 //Creati o pagina noua html, cu denumirea in tab-ul ferestreti de browser de Ex1
@@ -53,21 +53,19 @@ console.log("---------------------");
 //All the items with asterisc are more difficult - do not stress if you can't solve them easily
 
 //?(4)
-// Create a new project folder. Inside create an HTML file. For the title 
+// Create a new project folder. Inside create an HTML file. For the title
 // of the page put the name “Personal Blog”
 // On the first line put your name using a heading. Put the color green.
 // Under your title, using the smallest heading put with blue, your date of birth.
 // Below that put some blank space. Which tag should you use for that?
-// Add the following information : address: XXXXX , 
+// Add the following information : address: XXXXX ,
 // on the next row: job: xxxxxx ; replace the xxxx with actual information
 // Make bold job and address words. Put italics for the content that replaced xxxxx
-// Insert an image of your favorite place. Write below a description. Put underline 
+// Insert an image of your favorite place. Write below a description. Put underline
 // and the color yellow for the first word.
-// Nest the image inside a link. When clicked you should 
-// navigate to another html file with all the snapshots from Slack and 
+// Nest the image inside a link. When clicked you should
+// navigate to another html file with all the snapshots from Slack and
 // with your personal description under each image that will describe the topic covered in each picture.
-
-
 
 //*CSS
 //?(1)
@@ -96,7 +94,7 @@ console.log("---------------------");
 //
 //
 //?(4)
-//1. Create a blog website with 5 articles. Use blind text to fill the content and use 
+//1. Create a blog website with 5 articles. Use blind text to fill the content and use
 // Numbers from 1 to 5 to make sure we know which is the initial order. Put a very soft but distinct
 //  background color to each article
 // 2. Implement all the principles of flex-box discussed until now
@@ -116,14 +114,14 @@ console.log("---------------------");
 // empty row between players is optional
 //
 //?(6)
-//Create a list of 10 flags. Each flag should be represented by a an image. 
+//Create a list of 10 flags. Each flag should be represented by a an image.
 //When you make hover on a button
 //Show ... a square rectangle should appear with a description of the country
-//2. Personal Blog. Create your own description page with your image and your data. 
-//Organize everything nice in your page. Use headings, nice fonts. Use a background image for some sections. 
+//2. Personal Blog. Create your own description page with your image and your data.
+//Organize everything nice in your page. Use headings, nice fonts. Use a background image for some sections.
 //Example: an image of computer science ... code ... on the background of a section where you describe
-//everything you know now about HTML, CSS, Javascript. Be as descriptive as possible. 
-//Use special characters whenever possible. Put an image of your favorite movie/book which should grow 
+//everything you know now about HTML, CSS, Javascript. Be as descriptive as possible.
+//Use special characters whenever possible. Put an image of your favorite movie/book which should grow
 //in size when hover. If you click it it should go to imdb/wiki of that book.
 //3. Create a stack of photos. Select 4 nice nature photos and stack them on top of each other so that all the time you can see the image on top and pieces of the other images. Just like when you throw them on the table. You see the picture on top and fragments of the others below. When you hover an image below it should be visible entirely and be on top
 //4. Create a table and color the rows while using only pseudoclasses.
@@ -138,7 +136,7 @@ console.log("---------------------");
 // please create an algorithm that will parse the string and separate the first name and the last name into variables
 // also .... the extension should be in a variable as well
 // in the end you should have something like marius, monea89 si gmail in separate variables
-var gmail = "marius.monea89@gmail.com";
+var gmail = 'marius.monea89@gmail.com';
 var name1 = gmail.split('@');
 var name2 = name1[0].split('.');
 console.log(name2);
@@ -149,41 +147,39 @@ console.log(name1);
 console.log(gmail.split('@'));
 console.log(gmail);
 //?(2)
-//Exercise if else : create a variable dayOfTheWeek. Put a string value inside; 
+//Exercise if else : create a variable dayOfTheWeek. Put a string value inside;
 //check with if else what is the day of the week and put  a different message for each day
-var dayOfTheWeek = "";
-switch(dayOfTheWeek){
-    case 'Luni':
-    console.log("luni");
+var dayOfTheWeek = '';
+switch (dayOfTheWeek) {
+  case 'Luni':
+    console.log('luni');
     break;
-    case 'Marti':
-    console.log("marti");
+  case 'Marti':
+    console.log('marti');
     break;
-    case  'Miercuri':
-    console.log("miercuri");
+  case 'Miercuri':
+    console.log('miercuri');
     break;
-    case  'Joi':
-    console.log("joi");
+  case 'Joi':
+    console.log('joi');
     break;
-    case  "Vineri":
-    console.log("vineri");
+  case 'Vineri':
+    console.log('vineri');
     break;
-    default:
-    console.log("e weekend");
+  default:
+    console.log('e weekend');
 }
 
-
-
 //?(3)
-// Print to the console the text "The movie starts with 'A' and the budget is above 0" 
+// Print to the console the text "The movie starts with 'A' and the budget is above 0"
 // if the first letter of a is "A" and the b(budget) is positive
 
-// You have two variables with strings inside. 
-// Check which one has more characters and print a message to the console 
+// You have two variables with strings inside.
+// Check which one has more characters and print a message to the console
 // like ("Variable a has more characters and it has X chars");
 
-// You are given the string "AAABBABABABABBBBAAA"; 
-// print to the console how many characters "A" and how many 
+// You are given the string "AAABBABABABABBBBAAA";
+// print to the console how many characters "A" and how many
 // characters "B" you have inside
 //varianta Claudiu
 // var contor1 =0;
@@ -203,11 +199,11 @@ switch(dayOfTheWeek){
 //match
 //let text = "The rain in SPAIN stays mainly in the plain";
 //text.match("ain");
-const letters = "AAABBABABABABBBBAAA";
+const letters = 'AAABBABABABABBBBAAA';
 
-var numbersOfA= (letters.match(/A/g)).length;
-var numbersOfB= (letters.match(/B/g)).length;
-console.log(numbersOfA, numbersOfB );
+var numbersOfA = letters.match(/A/g).length;
+var numbersOfB = letters.match(/B/g).length;
+console.log(numbersOfA, numbersOfB);
 console.log(numbersOfB);
 //console.log(("str1,str2,str3,str4".match(/,/g) || []).length); //logs 3
 
@@ -227,22 +223,22 @@ console.log(numbersOfB);
 //?(5)
 //Exercises Operators: 1. Cresti varsta cu 1 si afisati noua varsta pe ecran;
 // 2. Ridicati la puterea a treia varsta si afisati pe ecran noua valoare
-// 3. modificati if else si adaugati si verificare varstei. Daca este mai mare de 100, atunci printati catre ecran : 
+// 3. modificati if else si adaugati si verificare varstei. Daca este mai mare de 100, atunci printati catre ecran :
 // "Desi Marius Monea are carnet de condus, datorita varstei inaintate, de XXX ani, el nu ar trebui sa mai conduca.";
 // 4. Explicati de ce 2+2*4 este egal cu 10 si nu cu 16 (doar oral)
 // 5. Verificati dc "1" + 1 este egal cu 1+1; explicati de ce
-// 6. Se da un numari cuprins intre 1 si 100. Sa se verifice cu if daca se imparte exact la 3, 
+// 6. Se da un numari cuprins intre 1 si 100. Sa se verifice cu if daca se imparte exact la 3,
 // apoi dc se imparte exact la 5, apoi daca se imparte la 15.
-// 7. Daca numarul acesta este divizibil cu 15 trebuie sa printati catre ecran : 
-// "Divizibil cu 15"; dc este divizibil cu 3 ... "divizibil cu 3", dc este divizibl cu 5 ... "divizibil cu 5"; 
-// pentru numarele 15,30,45,60,75, 90 ... 
+// 7. Daca numarul acesta este divizibil cu 15 trebuie sa printati catre ecran :
+// "Divizibil cu 15"; dc este divizibil cu 3 ... "divizibil cu 3", dc este divizibl cu 5 ... "divizibil cu 5";
+// pentru numarele 15,30,45,60,75, 90 ...
 // ar trebui sa apara doar ca sunt divizibile cu 15, nu si cu 3 si 5, pentru ca se subintelege
 // 7 - avansat
 // 8 - afisati restul impartirii numarului la 3 si puneti un mesaj de genul " 7 nu se imparte exact la 3 si are rest 1
 //
 //
 //?(6)
-//Se sa creeze o functie care sa accepte 2 argumente, 
+//Se sa creeze o functie care sa accepte 2 argumente,
 // prenumele si numele vostru. Functia trebuie sa returneze numele vostry intreg
 // 2. Realizati o functie care sa accepte un string ca argument si sa returneze cate caractere contine stringul respectiv
 // 3. Se da o lista de numere [3,6,4,7,9,10,12]; creati o functie care sa returneze daca un numar este divizibl cu 3
@@ -251,19 +247,19 @@ console.log(numbersOfB);
 //
 //
 //?(7)
-//5. creati urmatoarea serie de variabile: firstName, lastName, age, hasDrivingLicense, isMarried, address. 
-// Puneti valorile corespunzatoare: string, numar sau boolean. 
-// Realizati o functie care sa printeze pe ecran urmatorul mesaj 
-// (Numele meu este Marius Monea, am 32 de ani, cu inca X ani pana la pensie[la pensie se iese la 65 sa zicem], 
-// cu domicilul in Bucuresti, str Inorogului Zglobiu Nr4 , 
+//5. creati urmatoarea serie de variabile: firstName, lastName, age, hasDrivingLicense, isMarried, address.
+// Puneti valorile corespunzatoare: string, numar sau boolean.
+// Realizati o functie care sa printeze pe ecran urmatorul mesaj
+// (Numele meu este Marius Monea, am 32 de ani, cu inca X ani pana la pensie[la pensie se iese la 65 sa zicem],
+// cu domicilul in Bucuresti, str Inorogului Zglobiu Nr4 ,
 // sunt casatorit si nu conduc masina); folositi if pt a avea mesajul corect
 
 //
 //?(8)
 //Ex1. Creati o functie care verifica daca un caracter este sau nu o vocala(a,e,i,o,u);
 //Ex2: Creati o functie care sa numere vocalele dintr-un cuvant
-//Ex3 Creati o functie care accepta 2 numere intregi ca parametri. 
-//Va returna numarul care se termina cu cea mai mica cifra dintre cele 2. 
+//Ex3 Creati o functie care accepta 2 numere intregi ca parametri.
+//Va returna numarul care se termina cu cea mai mica cifra dintre cele 2.
 //ex: 71 si 34 -> va returna 71.
 //Ex 4 - creati o functie care sa returneze suma cifrelor unui numar
 //
@@ -275,17 +271,17 @@ console.log(numbersOfB);
 //
 //
 //?(10)
-//5. Creati o variabila care sa stocheze un string. 
-//Folosing un for loop returnati stringul inversat. 
-// Puneti logica intr-o functie, care sa accepte un string 
+//5. Creati o variabila care sa stocheze un string.
+//Folosing un for loop returnati stringul inversat.
+// Puneti logica intr-o functie, care sa accepte un string
 // si sa returneze stringul scris de la coada la cap
 //
 //
 //?(11)
-//Exercitiu avansat: Cand merge la sala facem ... sa zicem 4 exercitii a cate 20 de repetari fiecare. 
-// Folositi for loop pentru a printa pe ecran .... cu emoji funny langa .... 
+//Exercitiu avansat: Cand merge la sala facem ... sa zicem 4 exercitii a cate 20 de repetari fiecare.
+// Folositi for loop pentru a printa pe ecran .... cu emoji funny langa ....
 // Exercitiul 1 - repetitia 1:thumbsup: ... Exercitiul 1 - repetitia 2
-//  si tot asa ... nush ... cautati un emoji mai fain pentru haltere ... 
+//  si tot asa ... nush ... cautati un emoji mai fain pentru haltere ...
 //  deci ar trebui sa am 80 de randuri printate, da?
 //
 //?(12)
@@ -293,7 +289,7 @@ console.log(numbersOfB);
 
 // Se da un string; folositi while loop ca sa printati jumatate din lungimea sa
 // 2. Cu while loop printati pe cate un rand o piramida de emoji, incepand de la 1 emoji pe rand pana la 10 emoji pe rand
-// 3. se da  o variabila string care contine multe vocale. Sa se printeze caracterele din acest string pana cand intalnim 
+// 3. se da  o variabila string care contine multe vocale. Sa se printeze caracterele din acest string pana cand intalnim
 // a treia vocala. Cand intalnim a treia vocala, aceasta va fi ultimul caracter printat;
 
 // Exercises do while :
@@ -312,8 +308,8 @@ console.log(numbersOfB);
 //?(13)
 //Create a function that returns the average score of 3 numbers
 // 2. Create a function that returns true if the parameter passed is divisable by 2 and 3 and false if it not
-// 3. Create a function that accepts 2 numbers(x and y) between 1 and 10. It will output a message like: 
-// "Welcome to the olympics. Today we will have a lap around the stadium. We will have X rounds 
+// 3. Create a function that accepts 2 numbers(x and y) between 1 and 10. It will output a message like:
+// "Welcome to the olympics. Today we will have a lap around the stadium. We will have X rounds
 // consisting of Y challenges. Let the Games Begin! ". After that we will have the following series of messages:
 // Round 1 - Challenge 1 ... Round 2 - Challenge 2 .... .... Round 4 ... Challenge 7.
 // 4. Calculate the sum of elements of an array.
@@ -321,240 +317,224 @@ console.log(numbersOfB);
 //
 //?(14)
 //Exercise: Create a function constructor for cars.
-//  Each object car should have a brand, a year, a price, a normal speed. 
-//  These 4 should also be arguments for the functions. 
-//  Each object has also the following properties : isEcologic with the default value false, 
-//  the methods : accelarate(increase speed by 10%), brake(decrease speed by 20) . 
-//  Create 3 distinct car objects. Mimic a car reaching to 200km/h. 
+//  Each object car should have a brand, a year, a price, a normal speed.
+//  These 4 should also be arguments for the functions.
+//  Each object has also the following properties : isEcologic with the default value false,
+//  the methods : accelarate(increase speed by 10%), brake(decrease speed by 20) .
+//  Create 3 distinct car objects. Mimic a car reaching to 200km/h.
 // What do you have to do? Output messages in the console to prove you finished the task.
-//Exercises - advanced : 1. if an object should push 10 brakes in its time, a new property should 
+//Exercises - advanced : 1. if an object should push 10 brakes in its time, a new property should
 //be created on the object : wheelsUsed with a boolean value. How do you do that?
 //Nu neaparat una dupa alta
 //
-//2. Put a method on the object called crush that does the following : 
-//a. reduced the speed to 10% of it's initial value b. 
+//2. Put a method on the object called crush that does the following :
+//a. reduced the speed to 10% of it's initial value b.
 //reduces the price to 35%  c. creates the wheelsUsed property and makes it equal to true
 //
 //?(5)
-// 1. Create 2 types of objects with both ECMASCRIPT2015(ECMA6) syntax and with the 
+// 1. Create 2 types of objects with both ECMASCRIPT2015(ECMA6) syntax and with the
 //old version(function constructor). Topic : dinosaurs; list of arguments: size, specie, isHerbivorous
-// Default properties : isExtinct : true; methods: eat - this should act differently if the dinosaur 
-// is herbivorous or carnivorous. For herbivorous you should create a new property for the dinosaur 
+// Default properties : isExtinct : true; methods: eat - this should act differently if the dinosaur
+// is herbivorous or carnivorous. For herbivorous you should create a new property for the dinosaur
 // object called stomach. It will contain the word grass as a value
-// For extra credit ask the user to input 3 strings. For example - when you call eat for 
-// herbivorous dinosaurs - the use will input 3 times a name of a plant the dinosaur 
+// For extra credit ask the user to input 3 strings. For example - when you call eat for
+// herbivorous dinosaurs - the use will input 3 times a name of a plant the dinosaur
 // could eat : fern, acorn, grass, pine needle etc
 // For carnivorous - the size should increase with 15%
 // Make the name property hidden or private
 
-
 // ECMA6
-function dinosaurs(size, specie, isHerbivorous){
-    this.isExtinct = true;
-    this.size=size;
-    this.isHerbivorous= isHerbivorous;
-    let _specieSecret= specie;
-    this.eat= function(){
-        if(this.isHerbivorous){
-            // const promptHerb1= prompt("The eaten plant is");
-            // const promptHerb2= prompt("The eaten plant is");
-            // const promptHerb3= prompt("The eaten plant is");
-            this.stomach= "grass";
-            console.log("is herbivorous");
-            
-        }else{
-            this.size+= this.size*0.15; 
-            console.log("is carnivorous");
-            console.log(`The size of the dinosaur has increased to ${this.size}`)
-        }
+function dinosaurs(size, specie, isHerbivorous) {
+  this.isExtinct = true;
+  this.size = size;
+  this.isHerbivorous = isHerbivorous;
+  let _specieSecret = specie;
+  this.eat = function () {
+    if (this.isHerbivorous) {
+      // const promptHerb1= prompt("The eaten plant is");
+      // const promptHerb2= prompt("The eaten plant is");
+      // const promptHerb3= prompt("The eaten plant is");
+      this.stomach = 'grass';
+      console.log('is herbivorous');
+    } else {
+      this.size += this.size * 0.15;
+      console.log('is carnivorous');
+      console.log(`The size of the dinosaur has increased to ${this.size}`);
     }
+  };
 }
-const dino1= new dinosaurs(20, "specie", true);
+const dino1 = new dinosaurs(20, 'specie', true);
 console.log(dino1);
 dino1.eat();
 console.log(dino1.size);
 
-class dinosaurs2{
-    constructor(size, specie, isHerbivorous){
-        this.size=size;
-        this.isExtinct = true;
-        this.isHerbivorous= isHerbivorous;
-        
-        let _specieSecret1= specie;
-        this.eat= function(){
-            if(this.isHerbivorous){
-                this.stomach= "grass";
-                console.log("is herbivorous")
-            }else{
-                this.size+= this.size*0.15; 
-                console.log("is carnivorous");
-                console.log(`The size of the dinosaur has increased to ${this.size}`);
-                
-            }
-            
-            
-        }
-        //how to show a hidden property
-        this.getSpecie= function(){
-            return _specieSecret1;
-            
-        }
-        this.setSpecie= function(value){
-            _specieSecret1= value;
-        }    
-    }
+class dinosaurs2 {
+  constructor(size, specie, isHerbivorous) {
+    this.size = size;
+    this.isExtinct = true;
+    this.isHerbivorous = isHerbivorous;
+
+    let _specieSecret1 = specie;
+    this.eat = function () {
+      if (this.isHerbivorous) {
+        this.stomach = 'grass';
+        console.log('is herbivorous');
+      } else {
+        this.size += this.size * 0.15;
+        console.log('is carnivorous');
+        console.log(`The size of the dinosaur has increased to ${this.size}`);
+      }
+    };
+    //how to show a hidden property
+    this.getSpecie = function () {
+      return _specieSecret1;
+    };
+    this.setSpecie = function (value) {
+      _specieSecret1 = value;
+    };
+  }
 }
 
-const dinoConstr= new dinosaurs2(20, "T-Rex", true);
+const dinoConstr = new dinosaurs2(20, 'T-Rex', true);
 console.log(dinoConstr);
 dinoConstr.eat();
 console.log(dinoConstr._specieSecret1);
 dinoConstr.getSpecie();
 console.log(dinoConstr.getSpecie());
-dinoConstr.setSpecie("triceratops");
+dinoConstr.setSpecie('triceratops');
 console.log(dinoConstr.getSpecie());
 
-// Create a function outside the object that will receive as input 2 dinosaurs. 
-// Call it encounter. If one of the dinosaurs is carnivorous and the other is herbivorous, 
+// Create a function outside the object that will receive as input 2 dinosaurs.
+// Call it encounter. If one of the dinosaurs is carnivorous and the other is herbivorous,
 // do the following : the herbivorous dinosaur should change its name from lets day tryceratops
-// into ex-triceratops and the carnivorous one should "eat" it. Also ... you should print to the 
-// console the following text : The herbivorous dinosaur dino1, called (tryceratops - the name of the dino) 
-// met a carnivorous one, called T-Rex. Now the tryceratops is no more and its name is ex-tryceratops. 
+// into ex-triceratops and the carnivorous one should "eat" it. Also ... you should print to the
+// console the following text : The herbivorous dinosaur dino1, called (tryceratops - the name of the dino)
+// met a carnivorous one, called T-Rex. Now the tryceratops is no more and its name is ex-tryceratops.
 // The T-Rex increased in size it has .... new size of the carnivorous one
 // *specie = name
-// Creative part : 
+// Creative part :
 //what should encounter do if the 2 dinosaurs are herbivorous or both carnivorous
 
-function encounter(dino1, dino2){
-    if(dino1.isHerbivorous && !dino2.isHerbivorous){   
-        dino1.setSpecie("ex-" + dino1.getSpecie());
-        dino2.eat();
-    }else if(!dino1.isHerbivorous && dino2.isHerbivorous){
-        dino2.setSpecie("ex-"+ dino2.getSpecie());
-        dino1.eat();
-    }else if(dino1.isHerbivorous && dino2.isHerbivorous ){
-        console.log("They ignore each other")
-    }else{
-        console.log("both are carnivorous")
-    }
+function encounter(dino1, dino2) {
+  if (dino1.isHerbivorous && !dino2.isHerbivorous) {
+    dino1.setSpecie('ex-' + dino1.getSpecie());
+    dino2.eat();
+  } else if (!dino1.isHerbivorous && dino2.isHerbivorous) {
+    dino2.setSpecie('ex-' + dino2.getSpecie());
+    dino1.eat();
+  } else if (dino1.isHerbivorous && dino2.isHerbivorous) {
+    console.log('They ignore each other');
+  } else {
+    console.log('both are carnivorous');
+  }
 }
-const anotherdino1= new dinosaurs2(20, "t.rex", false);
-const anotherdino2= new dinosaurs2(40, "erbivor", false);
+const anotherdino1 = new dinosaurs2(20, 't.rex', false);
+const anotherdino2 = new dinosaurs2(40, 'erbivor', false);
 encounter(anotherdino2, anotherdino1);
 
 console.log(anotherdino1.getSpecie(), anotherdino2.getSpecie());
 console.log(anotherdino2.size);
 //?(6)
-//Homework: Theme: Shopping. Create a class for shopping. 
+//Homework: Theme: Shopping. Create a class for shopping.
 //Each object will have the following parameters : location, budget, items.
-//Items will be an array. It could be empty or with elements(strings). 
-//Besides the arguments passed to the constructor function, each shopping 
-//should have the following properties: isFun : true and the method spend which 
+//Items will be an array. It could be empty or with elements(strings).
+//Besides the arguments passed to the constructor function, each shopping
+//should have the following properties: isFun : true and the method spend which
 //should accept a number that will decrease the budget of the object
-class shopping{
-    constructor(location, budget, items){
-        this.isFun= true;
-        this.location=location;
-        this.budget=budget;
-        this.items=items;
-        
-        this.spend= function(items){
-            for(var shoppingItem in items){
-                console.log(`${shoppingItem}: ${items[shoppingItem]}`);
-                if(items[shoppingItem]> this.budget){
-                    console.log("You can't spend what you do not have");
-                }else{
-                    this.budget -= items[shoppingItem];
-                    console.log(`The budget has decreased to ${this.budget}`);
-                }
-            }
-            
+class shopping {
+  constructor(location, budget, items) {
+    this.isFun = true;
+    this.location = location;
+    this.budget = budget;
+    this.items = items;
+
+    this.spend = function (items) {
+      for (var shoppingItem in items) {
+        console.log(`${shoppingItem}: ${items[shoppingItem]}`);
+        if (items[shoppingItem] > this.budget) {
+          console.log("You can't spend what you do not have");
+        } else {
+          this.budget -= items[shoppingItem];
+          console.log(`The budget has decreased to ${this.budget}`);
         }
-        
-        
-        
-    }
+      }
+    };
+  }
 }
 
 var shoppingList = {
-    beer: 10, 
-    milk: 2,
-    scarf: 5,
-    bread: 4
-    
-}
+  beer: 10,
+  milk: 2,
+  scarf: 5,
+  bread: 4,
+};
 
-var object01= new shopping('Promenada', 500, []);
+var object01 = new shopping('Promenada', 500, []);
 object01.spend(800);
 console.log(object01.budget);
 
-var object02= new shopping('Afi', 500, shoppingList);
+var object02 = new shopping('Afi', 500, shoppingList);
 object02.spend(shoppingList);
 console.log(object02);
 // }
-// Advanced - use a control structure to check if the number passed to the function 
-// is bigger than the current budget; if it is print to the console: 
+// Advanced - use a control structure to check if the number passed to the function
+// is bigger than the current budget; if it is print to the console:
 // "You can't spend what you do not have";
 
 // Use both constructor function (before ECMA6 and also classes from  ECMA6)
-// 2. Advanced - the method spend should accept an object as an input not a number anymore; 
-// this object should have a list of shopping items, like : beer - 10, milk -2, scarf -9, bread - 1, etc; 
-// it represents the shopping list. after you pass the object to the function and call it later on - 
-// a message on the screen should be like : Shopping Item 1 - beer - it costs 10, and it brings the budget 
+// 2. Advanced - the method spend should accept an object as an input not a number anymore;
+// this object should have a list of shopping items, like : beer - 10, milk -2, scarf -9, bread - 1, etc;
+// it represents the shopping list. after you pass the object to the function and call it later on -
+// a message on the screen should be like : Shopping Item 1 - beer - it costs 10, and it brings the budget
 // from 200 to 190; .... Shopping Item 7 - DVD - it costs 11, and it brings the budget from 50 to 39
 
-// Create a trip class. This should have the location and budget as parameters. You should make the budget private. 
+// Create a trip class. This should have the location and budget as parameters. You should make the budget private.
 // Make sure you are still able to change it and to show it to the console, even if it is private now.
 
-class trip{
-     constructor(budget, location) {
-        let _privateBudget= budget;
-        this.location= location;
-        this.getBudget= function(){
-            return _privateBudget;
-        }
-        this.setBudget= function(modifiedBudget){
-            _privateBudget=modifiedBudget;
-        }
-
-        
-    }
+class trip {
+  constructor(budget, location) {
+    let _privateBudget = budget;
+    this.location = location;
+    this.getBudget = function () {
+      return _privateBudget;
+    };
+    this.setBudget = function (modifiedBudget) {
+      _privateBudget = modifiedBudget;
+    };
+  }
 }
 
-
-
-var trip01= new trip(500, "Busteni")
-var trip02 = new trip(400, "Retezat");
-var trip03= new trip(600, "Vama Veche");
-var tripArray =[trip01, trip02, trip03];
+var trip01 = new trip(500, 'Busteni');
+var trip02 = new trip(400, 'Retezat');
+var trip03 = new trip(600, 'Vama Veche');
+var tripArray = [trip01, trip02, trip03];
 
 console.log(trip01.getBudget());
 console.log(trip01.budget);
 trip01.setBudget(800);
 console.log(trip01.getBudget());
-// Advanced - 
+// Advanced -
 //create an external function that can compare 3 trips between themselves and
-// see which trip is cheaper. 
+// see which trip is cheaper.
 // That trip will receive a new property called isCheapest and
 // be initialized with true value.
-function compareTrip(tripArray){
-    isCheapest= true;
-    var minimBudget= 10000;
-    for(var i=0; i<tripArray.length; i++){
-        console.log(tripArray[i].getBudget());
-        if(tripArray[i].getBudget()< minimBudget){
-            minimBudget= tripArray[i].getBudget();
-        }
-    } 
-    console.log(`minimum Budget is ${minimBudget}`)
-    
-    for(var i=0; i<tripArray.length; i++){
-        if(tripArray[i].getBudget() === minimBudget){
-            tripArray[i].isCheapest = true;
-        }
-        
+function compareTrip(tripArray) {
+  isCheapest = true;
+  var minimBudget = 10000;
+  for (var i = 0; i < tripArray.length; i++) {
+    console.log(tripArray[i].getBudget());
+    if (tripArray[i].getBudget() < minimBudget) {
+      minimBudget = tripArray[i].getBudget();
     }
-    console.log(tripArray);
+  }
+  console.log(`minimum Budget is ${minimBudget}`);
+
+  for (var i = 0; i < tripArray.length; i++) {
+    if (tripArray[i].getBudget() === minimBudget) {
+      tripArray[i].isCheapest = true;
+    }
+  }
+  console.log(tripArray);
 }
 compareTrip(tripArray);
 //*june 5th
@@ -562,176 +542,155 @@ compareTrip(tripArray);
 //Budgettrip02<trip03<trip01
 //Budgettrip03<trip01<trip02
 
-
-
 //Bank Account
-// Create a bankAccount class(ES6 - with class keyword) and put the following properties: 
+// Create a bankAccount class(ES6 - with class keyword) and put the following properties:
 // balance, owner, startDate - this 3 should be also arguments
-// 2. Each bankAccount should have also a transaction properties which 
-//will stores incomes(salaries, bonuses etc) 
+// 2. Each bankAccount should have also a transaction properties which
+//will stores incomes(salaries, bonuses etc)
 // and expenses(fees, penalties)
 
-class bankAccount{
-    constructor( balance, owner, startDate) {
-        this.balance=balance;
-        this.owner=owner;
-        this.startDate=startDate;
-        this.incomes=[];
-        this.expenses=[];
-    }
+class bankAccount {
+  constructor(balance, owner, startDate) {
+    this.balance = balance;
+    this.owner = owner;
+    this.startDate = startDate;
+    this.incomes = [];
+    this.expenses = [];
+  }
 }
 
-class bankAccountLoan extends bankAccount{
-    constructor(balance, owner, startDate){
-    
-        
-        super(balance, owner, startDate);
-    
-         this.k=0;
-         
-    }
-    loan=function(amount){
-            
-            if(amount>10000){
-                console.log("No loan");
-            }else{
-                this.balance+=amount;
-                console.log(`${this.balance}`);
-                this.k++;
-            }
-            
-            if(this.k==3){
-                bigLoaners.push(this.owner);
-            }
-    }
-}
+class bankAccountLoan extends bankAccount {
+  constructor(balance, owner, startDate) {
+    super(balance, owner, startDate);
 
+    this.k = 0;
+  }
+  loan = function (amount) {
+    if (amount > 10000) {
+      console.log('No loan');
+    } else {
+      this.balance += amount;
+      console.log(`${this.balance}`);
+      this.k++;
+    }
+
+    if (this.k == 3) {
+      bigLoaners.push(this.owner);
+    }
+  };
+}
 
 const bigLoaners = [];
 console.log(bigLoaners);
-var user001= new bankAccountLoan(800, "Ion Maria", "27/7");
+var user001 = new bankAccountLoan(800, 'Ion Maria', '27/7');
 user001.loan(5000);
 user001.loan(4000);
 user001.loan(7000);
-console.log(user001.k)
+console.log(user001.k);
 console.log(bigLoaners);
 
-// 3. Create a new class, a child class that will inherit from bankAccount. 
-// This class should describe the objects that have a new method called loan. 
-// This method should increase the balance with a certain amount. 
-// Each call of the method will have different outcomes - 
+// 3. Create a new class, a child class that will inherit from bankAccount.
+// This class should describe the objects that have a new method called loan.
+// This method should increase the balance with a certain amount.
+// Each call of the method will have different outcomes -
 //according to how much does the new type of account wants to loan
-// 4. After you have written the definition of the two classes modify outside 
-//its definition, add a new method to each of them. 
+// 4. After you have written the definition of the two classes modify outside
+//its definition, add a new method to each of them.
 bankAccountLoan.prototype.outsideMethod = function () {
-    this.cardNumber=Math.floor(Math.random() * 10000000000000000000);
+  this.cardNumber = Math.floor(Math.random() * 10000000000000000000);
 };
 user001.outsideMethod();
 console.log(user001);
 // Be creative with its outcome
 
 // 5. create a function that will check if an object has available the loan property
-function CheckLoanProperty(bankAccount){
-    return bankAccount.hasOwnProperty('loan');
-     
-};
+function CheckLoanProperty(bankAccount) {
+  return bankAccount.hasOwnProperty('loan');
+}
 console.log(CheckLoanProperty(user001));
-// 6. Create an array which will register the accounts that call 
+// 6. Create an array which will register the accounts that call
 //loan more than 3 times. Name it : bigLoaners.
 
-
-
-// 7. Create a new class called hackerAccount which will overwrite the method 
-//loan and when called it will deplete 
-// the account that you want. If the account that will be affected by this 
-//will be 0 or below 0 - 
-// print a message to the console with some nice emojis in it. 
-// The hackerAccount should have the balance increased and a new property 
-//underInvestigation: true; 
+// 7. Create a new class called hackerAccount which will overwrite the method
+//loan and when called it will deplete
+// the account that you want. If the account that will be affected by this
+//will be 0 or below 0 -
+// print a message to the console with some nice emojis in it.
+// The hackerAccount should have the balance increased and a new property
+//underInvestigation: true;
 // Instantiate the new hackerAccount class.
 
+class hackerAccount extends bankAccountLoan {
+  constructor(balance, owner, startDate) {
+    super(balance, owner, startDate);
+  }
+  loan = function (otherAccount) {
+    this.underInvestigation = true;
+    this.balance += otherAccount.balance;
+    otherAccount.balance = 0;
 
-
-class hackerAccount extends bankAccountLoan{
-    constructor(balance, owner, startDate){
-    
-        
-        super(balance, owner, startDate);
-    
-         
-         
-    }
-    loan=function(otherAccount){
-        this.underInvestigation= true;
-        this.balance+= otherAccount.balance;
-        otherAccount.balance=0;
-
-        console.log(`${otherAccount.owner}, your account has been depleted 😈🙈`);
-    }
-
+    console.log(`${otherAccount.owner}, your account has been depleted 😈🙈`);
+  };
 }
 
-var depletedAccount= new hackerAccount(400, "Andrada", "28/7");
+var depletedAccount = new hackerAccount(400, 'Andrada', '28/7');
 depletedAccount.loan(user001);
 console.log(depletedAccount);
 console.log(user001);
 
-
 // Exercises OOP : 1. Create a Plant class. It will have the following default properties :
-//  nutrition(autotrophic) & hasRoots = true. (don't throw stones of me when you think of 
+//  nutrition(autotrophic) & hasRoots = true. (don't throw stones of me when you think of
 //  parasitic plants like mistletoe) . Each plant object, when instantiated should have
-//   a size, a name as arguments. Also ... the user should be asked about mainProduct. 
+//   a size, a name as arguments. Also ... the user should be asked about mainProduct.
 // The mainProduct introduced by the user should be stored in the object.
 
 // 2. Create an array that will store all the main products of the object plants.
 //3. Create a way to ensure that the array will have unique values
-// 
-class Plant{
-    constructor(size, name){
-        this.size=size;
-        this.name=name;
-        this.nutrition= "autotrophic";
-        this.hasRoots= true;
-        // this.mainProduct= prompt("Write the main product");
-        
-        // if(!arrayProducts.includes(this.mainProduct)){
-        //     arrayProducts.push(this.mainProduct);
-        // }
-    }
-    
+//
+class Plant {
+  constructor(size, name) {
+    this.size = size;
+    this.name = name;
+    this.nutrition = 'autotrophic';
+    this.hasRoots = true;
+    // this.mainProduct= prompt("Write the main product");
+
+    // if(!arrayProducts.includes(this.mainProduct)){
+    //     arrayProducts.push(this.mainProduct);
+    // }
+  }
 }
 let arrayProducts = [];
-let plant001= new Plant(78, "trandafir");
-let plant002= new Plant(77, "lalea");
-let plant003= new Plant(76, "brad");
+let plant001 = new Plant(78, 'trandafir');
+let plant002 = new Plant(77, 'lalea');
+let plant003 = new Plant(76, 'brad');
 
 console.log(plant001, plant002, plant003);
 console.log(arrayProducts);
 
-//4. Create a child class called Angiospermae (yeah - I am a fan of Biology and Inheritance) 
-// that will inherit from Plant. This will have a new property called climate that will be 
-// an object which will contain 1 to 4 climate regions (tundra, steppes, desert, swamps, etc) 
-// - each with more exact locations. For example wildPoppy will be found in steppes 
-// (siberian steppes, argentinian pampas etc - > 
+//4. Create a child class called Angiospermae (yeah - I am a fan of Biology and Inheritance)
+// that will inherit from Plant. This will have a new property called climate that will be
+// an object which will contain 1 to 4 climate regions (tundra, steppes, desert, swamps, etc)
+// - each with more exact locations. For example wildPoppy will be found in steppes
+// (siberian steppes, argentinian pampas etc - >
 //     this could be just countries if you are not a fan of Biodiversity)
 
-class Angiospermae extends Plant{
-    constructor(size,name, climate){
-        super(size, name)
-        this.climate=climate;
-    }
-    
+class Angiospermae extends Plant {
+  constructor(size, name, climate) {
+    super(size, name);
+    this.climate = climate;
+  }
 }
 
 let climate1 = {
-    tundra : ["North America", "North Asia"],
-    steppes: ["Africa", "Australia"],
-    desert: ["Africa", "Asia"],
-    swamps: ["Florida", "Europe"]
-}
-let newPlant001= new Angiospermae(2, "rosie", climate1.steppes[1]);
-let newPlant002= new Angiospermae(3, "castravete", climate1.tundra[0]);
-let newPlant003= new Angiospermae(4, "banana", climate1.steppes[0]);
+  tundra: ['North America', 'North Asia'],
+  steppes: ['Africa', 'Australia'],
+  desert: ['Africa', 'Asia'],
+  swamps: ['Florida', 'Europe'],
+};
+let newPlant001 = new Angiospermae(2, 'rosie', climate1.steppes[1]);
+let newPlant002 = new Angiospermae(3, 'castravete', climate1.tundra[0]);
+let newPlant003 = new Angiospermae(4, 'banana', climate1.steppes[0]);
 console.log(newPlant001);
 console.log(newPlant002);
 console.log(newPlant003);
@@ -739,17 +698,14 @@ console.log(newPlant003);
 //map
 
 const num = [1, 2, 3];
-num.map(v=> v*2);
+num.map((v) => v * 2);
 console.log(v);
 
-
-
-// If your country's population is greater than 33 million, 
-// use the ternary operator to log a string like this to the console: 
-// 'Portugal's population is above average'. Otherwise, simply log 
-// 'Portugal's population is below average'. Notice how only one word 
+// If your country's population is greater than 33 million,
+// use the ternary operator to log a string like this to the console:
+// 'Portugal's population is above average'. Otherwise, simply log
+// 'Portugal's population is below average'. Notice how only one word
 // changes between these two sentences!
-
 
 // let population = 40;
 
@@ -758,9 +714,6 @@ console.log(v);
 
 // After checking the result, change the population temporarily to 13 and then to
 // 130. See the different results, and set the population back to original
-
-
-
 
 // . Use a switch statement to log the following string for the given 'language':
 // chinese or mandarin: 'MOST number of native speakers!'
@@ -772,10 +725,10 @@ console.log(v);
 
 // const language= "Chinese";
 // switch(language){
-//     case "Chinese" || "Mandarin": 
+//     case "Chinese" || "Mandarin":
 //     console.log('MOST number of native speakers!');
 //     break;
-//     case "Arabic": 
+//     case "Arabic":
 //     console.log('5th most spoken language')
 //     break;
 //     case "Spanish":
@@ -783,9 +736,6 @@ console.log(v);
 //     break;
 //     default: console.log('Great language too');
 // }
-
-
-
 
 // Comment out the previous code so the prompt doesn't get in the way
 // 2. Let's say Sarah is looking for a new country to live in. She wants to live in a
@@ -800,10 +750,10 @@ console.log(v);
 // change some variables in order to make the condition true (unless you live in
 // Canada :D)
 
-let country = "Romania";
+let country = 'Romania';
 // let language = "english";
 // let population= 30;
-let isIsland= false;
+let isIsland = false;
 
 // if(language === "english" && population <50 && !isIsland){
 //     console.log(`${country} Is the right country for Sarah`);
@@ -811,37 +761,36 @@ let isIsland= false;
 //     console.log(`${country} is not right for her`);
 // }
 
-
-
-function rightCountry(language, population, isIsland){
-    if(language === "english" && population <50 && !isIsland){
+function rightCountry(language, population, isIsland) {
+  if (language === 'english' && population < 50 && !isIsland) {
     console.log(`${country} Is the right country for Sarah`);
-}else{
+  } else {
     console.log(`${country} is not right for her`);
+  }
 }
-}
-rightCountry("english", 30, false);
+rightCountry('english', 30, false);
 
-
-//* 
+//*
 const anotherCountry = {
-    name: "Sweden",
-    language: "english",
-    population: 20,
-    isIsland: false
-}
+  name: 'Sweden',
+  language: 'english',
+  population: 20,
+  isIsland: false,
+};
 
-function betterCountry(object){
-    if(object.language === "english" && object.population<50 && !object.isIsland){
-        console.log(`${object.name} is the right country for Sarah`);
-    }else{
-        console.log(`${object.name} is not right for her`);
-    }
+function betterCountry(object) {
+  if (
+    object.language === 'english' &&
+    object.population < 50 &&
+    !object.isIsland
+  ) {
+    console.log(`${object.name} is the right country for Sarah`);
+  } else {
+    console.log(`${object.name} is not right for her`);
+  }
 }
 
 betterCountry(anotherCountry);
-
-
 
 // 1. Create an array containing all the neighbouring countries of a country of your
 // choice. Choose a country which has at least 2 or 3 neighbours. Store the array
@@ -857,25 +806,22 @@ betterCountry(anotherCountry);
 // change the array at that index position. For example, you can search for
 // 'Sweden' in the array, and then replace it with 'Republic of Sweden'
 
-const Romania= ["Serbia", "Moldova", "Ungaria", "Bulgaria", "Ucraina"];
+const Romania = ['Serbia', 'Moldova', 'Ungaria', 'Bulgaria', 'Ucraina'];
 console.log(Romania);
-Romania.push("Utopia");
+Romania.push('Utopia');
 console.log(Romania);
 Romania.pop();
 console.log(Romania);
 
-if(!Romania.includes("Germania")){
-    console.log('Probably not a central European country :D');
-};
+if (!Romania.includes('Germania')) {
+  console.log('Probably not a central European country :D');
+}
 // people[0] = "Georgie";-- how to change a value in an array
-Romania[Romania.indexOf("Moldova")]= "Sweden";
+Romania[Romania.indexOf('Moldova')] = 'Sweden';
 // Romania.indexOf("Moldova")= "Sweden";
 console.log(Romania);
-console.log(Romania.indexOf("Moldova"));
-'Moldova class="country">'
-
-
-
+console.log(Romania.indexOf('Moldova'));
+('Moldova class="country">');
 
 // The world population is 7900 million people. Create a function declaration
 // called 'percentageOfWorld1' which receives a 'population' value, and
@@ -890,9 +836,9 @@ console.log(Romania.indexOf("Moldova"));
 // 'percentageOfWorld2', and also call it with 3 country populations (can be
 // the same populations)
 
-function percentageOfWorld1(population){
-    return (population/7900)*100
-};
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
 console.log(percentageOfWorld1(200));
 
 // 1. Create an array containing 4 population values of 4 countries of your choice.
@@ -904,26 +850,23 @@ console.log(percentageOfWorld1(200));
 // 'percentageOfWorld1' that you created earlier to compute the 4
 // percentage values
 
-const population =[19, 25, 60, 85];
+const population = [19, 25, 60, 85];
 console.log(population.length === 4);
 
 const population1 = [
-    percentageOfWorld1(population[0]),
-    percentageOfWorld1(population[1]),
-    percentageOfWorld1(population[0]),
-    percentageOfWorld1(population[3]),
+  percentageOfWorld1(population[0]),
+  percentageOfWorld1(population[1]),
+  percentageOfWorld1(population[0]),
+  percentageOfWorld1(population[3]),
 ];
-
 
 console.log(population1);
 const percentages = [];
-for(var i=0; i<population.length; i++){
-    console.log(percentageOfWorld1(population[i]));
-    percentages.push(percentageOfWorld1(population[i]));
-    
-};
+for (var i = 0; i < population.length; i++) {
+  console.log(percentageOfWorld1(population[i]));
+  percentages.push(percentageOfWorld1(population[i]));
+}
 console.log(percentages);
-
 
 // 1. Let's bring back the 'populations' array from a previous assignment
 // 2. Use a for loop to compute an array called 'percentages2' containing the
@@ -942,12 +885,57 @@ console.log(percentages);
 //     }
 // }
 
-
 //Exerxitii alternative
 
 //Se da un cuvant . Numarati de cate ori se repeta fiecare litera
 
+//Se da un paragraf cu mai mai multe propozitii.
+//Sa se calculeze litera care se repeta de cele
+//mai multe ori, indiferent daca este lowercase sau uppercase
 
+//scoping
+// function add1() {
+//   console.log("I'm inside add1");
+//   function add2() {
+//     console.log("I'm inside add2");
+//     function add3() {
+//       console.log("I'm inside add3");
+//       console.log(x);
+//     }
+//     add3();
+//   }
+//   let x = 20;
+//   add2();
+// }
 
+// add1();
 
+const myFunction = function (myCounter) {
+  let x = 20;
+  let sum = myCounter + x;
+  console.log(typeof sum);
+  function add() {
+    console.log('Hello. I am inside function add');
+    let y = 10;
+    sum = sum + y;
+    function add2() {
+      console.log('Hello. I am inside function add2');
+      let v = Number('11');
+      sum = sum + v;
+    }
+    add2();
+    console.log('The end of add function');
+  }
+  console.log('Before calling print');
 
+  console.log('Before print');
+  function print() {
+    console.log(`The parameter for my function is ${myCounter}`);
+    console.log(sum);
+  }
+  print();
+  console.log('End of myFunction');
+  add();
+};
+
+myFunction(3);

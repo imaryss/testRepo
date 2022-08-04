@@ -1,6 +1,3 @@
-
-
-
 //CURS 28.05
 
 console.log(1);
@@ -40,7 +37,6 @@ console.log(10);
 //     }
 // }
 
-
 //*While (de ce se foloseste i++??)
 
 // var i= 1;
@@ -63,15 +59,12 @@ console.log(10);
 //     }
 // }
 
-
 // //*--------Arrays--------
 
 // var myArray = [10, 20, 30, 40];
 // console.log(myArray[0]);
 // myArray[0]=89;
 // console.log(myArray[0]);
-
-
 
 // var chars= [ "a", "e", "i", "o", "u","A", "E", "I", "O", "U"];
 // if (chars[0]=== "a"){
@@ -94,7 +87,6 @@ console.log(10);
 //     console.log(chars[i]);
 // }
 
-
 //*
 // var newArray= [1,2,3,4,5];
 // function print(val, index){
@@ -102,20 +94,17 @@ console.log(10);
 // }
 // newArray.forEach(print);
 
-
 //*Exercise while
 // 1.Se da un string; folositi while loop ca sa printati jumatate din lungimea sa
 
-
-
 // var myFirst="Maria";
-// var i=0; 
+// var i=0;
 // while( i<=myFirst.length/2){
 //     console.log(myFirst[i]);
 //     i++
 // }
 
-//*2.Cu while loop printati pe cate un rand o piramida deemoji, 
+//*2.Cu while loop printati pe cate un rand o piramida deemoji,
 //*incepand de la 1 emoji pe rand pana la 10 emoji pe rand
 
 // var emoji='🌐';
@@ -126,12 +115,9 @@ console.log(10);
 //     i++;
 // }
 
+console.log();
 
-
-
-
-
-//* 3.se da  o variabila string care contine multe vocale. Sa se printeze caracterele din acest 
+//* 3.se da  o variabila string care contine multe vocale. Sa se printeze caracterele din acest
 // *string pana cand intalnim a treia vocala Cand intalnim a treia vocala, aceasta va fi ultimul
 //* caracter printat;
 
@@ -140,6 +126,3 @@ console.log(10);
 // while(i<=10){
 //     console.log()
 // }
-
-
-
