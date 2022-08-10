@@ -125,23 +125,27 @@ idZ.addEventListener("click", function (event) {
   console.log(event.target.textContent);
 });
 let word4 = "";
-letters.forEach((element) => {
-  element.addEventListener("click", function () {
-    for (var i = 0; i <= randomWord.length - 1; i++) {
-      if (element.innerHTML.toLowerCase() == randomWord[i]) {
-        word4 += randomWord[i];
-      } else if (element.innerHTML.toLowerCase() !== randomWord[i]) {
-        word4 += "#";
-        randomWord[i] = "#";
-        console.log("else if");
-      } else {
-        // randomWord[i] = "#";
-        console.log("else");
-      }
+// letters.forEach((element) => {
+
+let toggle = function () {
+  for (var i = 0; i <= randomWord.length - 1; i++) {
+    if (letters.innerHTML == randomWord[i]) {
+      word4 += randomWord[i];
+    } else if (letters.innerHTML !== randomWord[i]) {
+      word4 += "#";
+      randomWord[i] = "#";
+      console.log("else if");
+    } else {
+      // randomWord[i] = "#";
+      console.log("else");
     }
-    console.log(word4);
-  });
-});
+  }
+  console.log(word4);
+};
+
+letters.addEventListener("click", toggle());
+// });
+
 // else if randomword[i]="#"
 // const word1 = "sunshine";
 // let word2 = "########";
