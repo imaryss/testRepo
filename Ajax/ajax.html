@@ -1,78 +1,61 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Document title</title>
     <meta charset="utf-8" />
-</head>
+  </head>
 
-<body>
-    <p>
-        primul paragraf
-    </p>
+  <body>
+    <p>primul paragraf</p>
     <input type="date" name="date" />
     <div id="header" class="primul-div">
-        aici se afla header ul paginii noastre
+      aici se afla header ul paginii noastre
     </div>
     <section id="container" class="section-div alta-sectiune paragraful-3">
-        <ul id="animalList">
-            <li>
-                dog
-            </li>
-            <li>
-                cat
-            </li>
-            <li>
-                snake
-            </li>
-        </ul>
-        <button onclick="addAnimal()">add an animal</button>
-        <div class="item">
-            <div class="sub-item">
-                acesta este un sub-item
-            </div>
-            <p class="paragraful-3">
-                al doilea paragraf
-            </p>
-            <p>text</p>
+      <ul id="animalList">
+        <li>dog</li>
+        <li>cat</li>
+        <li>snake</li>
+      </ul>
+      <button onclick="addAnimal()">add an animal</button>
+      <div class="item">
+        <div class="sub-item">acesta este un sub-item</div>
+        <p class="paragraful-3">al doilea paragraf</p>
+        <p>text</p>
+      </div>
+      <div class="item">
+        <p>text2</p>
+        <div>
+          <div class="primul-div">
+            <p>al 3-lea paragraf</p>
+          </div>
         </div>
-        <div class="item">
-            <p>text2</p>
-            <div>
-                <div class="primul-div">
-                    <p>
-                        al 3-lea paragraf
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="main"> un alt div</div>
+      </div>
+      <div id="main">un alt div</div>
     </section>
     <div id="footer">
-        <ol>
-            <li>banane</li>
-            <li>portocale</li>
-            <li>banane</li>
-        </ol>
-        zona de footer
+      <ol>
+        <li>banane</li>
+        <li>portocale</li>
+        <li>banane</li>
+      </ol>
+      zona de footer
     </div>
-    <p>
-        ultimul
-    </p>
+    <p>ultimul</p>
     <script>
-        /*Sa selectam toate paragrafele din interiorul elementului 
+      /*Sa selectam toate paragrafele din interiorul elementului 
  html cu id ul "container"
 Si sa afisam la consola textul din interiorul paragrafelor 
 si sa schimbam font size ul fiecarui paragraf*/
 
-    var container = document.getElementById("container");
-    var allP = container.getElementsByTagName("p");
-    for(var i=0; i<allP.length; i++){
+      var container = document.getElementById("container");
+      var allP = container.getElementsByTagName("p");
+      for (var i = 0; i < allP.length; i++) {
         console.log(allP[i].innerText);
-        allP[i].style.fontSize="20px";
-    }
+        allP[i].style.fontSize = "20px";
+      }
 
-    /*exercitiul2- adaugati o lista ordonata de fructe unui div
+      /*exercitiul2- adaugati o lista ordonata de fructe unui div
 
     /* 
 -definim un array cu fructe 
@@ -81,57 +64,23 @@ si sa schimbam font size ul fiecarui paragraf*/
 - il adaugam la elementul selectat
     */
 
-var listFructe =["banane", "portocale", "mere"];
-var container = document.getElementById("container");
-var olElement = document.createElement('ol');
-listafructe.forEach(fruct => {
-    var li= document.createElement('li');
-    li.innerText= fruct;
-    olElement.appendChild(li);
-    
-});
-    container.appendChild(olElement);
+      var listFructe = ["banane", "portocale", "mere"];
+      var container = document.getElementById("container");
+      var olElement = document.createElement("ol");
+      listafructe.forEach((fruct) => {
+        var li = document.createElement("li");
+        li.innerText = fruct;
+        olElement.appendChild(li);
+      });
+      container.appendChild(olElement);
 
-    function addAnimal(){
-        var li = document.createElement('li');
+      function addAnimal() {
+        var li = document.createElement("li");
         li.innerText = fruct;
         var animalList = document.getElementById("animalList");
-        li.innerText= 'mouse';
+        li.innerText = "mouse";
         animalList.appendChild(li);
-    }
+      }
     </script>
-
-</body>
-
-</html> -->
-
-<!DOCTYPE html>
-<html>
-
-<body>
-    <h3>Example XHR:</h3>
-    <div id="test1"> un text random </div>
-    <button id="button"> Adu elementele!</button>
-    <div id="some_div"> </div>
-</body>
-<script>
-    
-</script>
-
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

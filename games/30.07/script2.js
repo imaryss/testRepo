@@ -125,13 +125,11 @@ idZ.addEventListener("click", function (event) {
   console.log(event.target.textContent);
 });
 let word4 = "";
-// letters.forEach((element) => {
-
-let toggle = function () {
+addEventListener("click",  ).forEach((element) => {
   for (var i = 0; i <= randomWord.length - 1; i++) {
-    if (letters.innerHTML == randomWord[i]) {
+    if (element.innerHTML.toLocaleLowerCase() == randomWord[i]) {
       word4 += randomWord[i];
-    } else if (letters.innerHTML !== randomWord[i]) {
+    } else if (element.innerHTML.toLocaleLowerCase() !== randomWord[i]) {
       word4 += "#";
       randomWord[i] = "#";
       console.log("else if");
@@ -141,9 +139,9 @@ let toggle = function () {
     }
   }
   console.log(word4);
-};
+}
 
-letters.addEventListener("click", toggle());
+// element.
 // });
 
 // else if randomword[i]="#"
@@ -157,5 +155,3 @@ letters.addEventListener("click", toggle());
 // console.log(word3);
 // word2 = word3;
 // console.log(word2);
-
-//*----------------------REVIN IN 2 MINUTE---------------------------
