@@ -125,11 +125,11 @@ idZ.addEventListener("click", function (event) {
   console.log(event.target.textContent);
 });
 let word4 = "";
-addEventListener("click",  ).forEach((element) => {
+addEventListener("click", function (click) {
   for (var i = 0; i <= randomWord.length - 1; i++) {
-    if (element.innerHTML.toLocaleLowerCase() == randomWord[i]) {
+    if (click.innerHTML.toLocaleLowerCase() == randomWord[i]) {
       word4 += randomWord[i];
-    } else if (element.innerHTML.toLocaleLowerCase() !== randomWord[i]) {
+    } else if (click.innerHTML.toLocaleLowerCase() !== randomWord[i]) {
       word4 += "#";
       randomWord[i] = "#";
       console.log("else if");
@@ -139,8 +139,23 @@ addEventListener("click",  ).forEach((element) => {
     }
   }
   console.log(word4);
-}
+});
 
+// addEventListener("click",  ).forEach((element) => {
+//   for (var i = 0; i <= randomWord.length - 1; i++) {
+//     if (element.innerHTML.toLocaleLowerCase() == randomWord[i]) {
+//       word4 += randomWord[i];
+//     } else if (element.innerHTML.toLocaleLowerCase() !== randomWord[i]) {
+//       word4 += "#";
+//       randomWord[i] = "#";
+//       console.log("else if");
+//     } else {
+//       // randomWord[i] = "#";
+//       console.log("else");
+//     }
+//   }
+//   console.log(word4);
+// }
 // element.
 // });
 
@@ -154,4 +169,4 @@ addEventListener("click",  ).forEach((element) => {
 // }
 // console.log(word3);
 // word2 = word3;
-// console.log(word2);
+// console.log(word2)

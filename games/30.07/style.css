@@ -8,13 +8,10 @@
     position: absolute;
     left: -150px;
     bottom: 80px;
-    
-    
-    
 }
 
 
-.circle2{
+.circle2 {
     height: 280px;
     width: 280px;
     background-color: rgb(219, 83, 20);
@@ -22,7 +19,7 @@
     position: absolute;
     left: -140px;
     bottom: 90px;
-    
+
 }
 
 
@@ -86,16 +83,7 @@
     left: -80px;
     bottom: 150px;
 }
+
 .circle {
-    display: inline-block;
-    
+    /* display: inline-block; */
 }
-
-
-
-
-
-
-
-
-
